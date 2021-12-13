@@ -25,8 +25,6 @@ if __name__ == '__main__':
 
     msg = cfg["message"]
 
-    #exit (1)
-
     print ("Let's start...\n")
     i = 0
     while i < len(contacts):

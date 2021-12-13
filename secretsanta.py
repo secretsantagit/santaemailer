@@ -6,7 +6,7 @@ import win32com.client
 
 if __name__ == '__main__':
     # parsing arguments
-    parser = argparse.ArgumentParser(description="This is a Secret Santa emailer v1.0. It builds randomly the pair of people (2+) and sends the emails via your MS Outlook.")
+    parser = argparse.ArgumentParser(description="This is a Secret Santa emailer v1.1. It builds randomly the pair of people (2+) and sends the emails via your MS Outlook.")
     parser.add_argument("-c", "--configfile", help="Path to a file with settings.", required=True)
     parser.add_argument("-t", "--test_num", type=int, help="t=1: Just show a list of people pairs. t=2: Show emails, but not send them.")
     args = parser.parse_args()
